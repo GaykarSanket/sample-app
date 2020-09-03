@@ -1,0 +1,8 @@
+replicaCount: 1
+
+version: custom
+
+service:
+  type: NodePort
+  nodePort: 30080
+
