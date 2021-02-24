@@ -1,5 +1,7 @@
 #!groovy
 
+#update1
+
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '9', numToKeepStr: '8')), disableConcurrentBuilds(), pipelineTriggers([pollSCM('*/1 * * * *')])])
 
 def checkout_git_code(String repo_url, String branch, String credentials_id,
