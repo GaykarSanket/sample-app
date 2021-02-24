@@ -1,6 +1,6 @@
 #!groovy
 
-#update1
+//update2
 
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '9', numToKeepStr: '8')), disableConcurrentBuilds(), pipelineTriggers([pollSCM('*/1 * * * *')])])
 
